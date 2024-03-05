@@ -19,14 +19,14 @@ export default function App() {
           </Routes> */}
 
           <Routes>
-            <Route path="/" element={<CountryList data={Data} />} />
+            <Route path="/KK8" element={<CountryList data={Data} />} />
             <Route>
               <Route
-                path="/Details/:country/:id"
+                path="/KK8/Details/:country/:id"
                 element={<CountryDetails data={Data} />}
               />
               <Route
-                path="/Details/:country/:id/Touristical-Monuments-of/:cityName/:cityId"
+                path="/KK8/Details/:country/:id/Touristical-Monuments-of/:cityName/:cityId"
                 element={<CityDetails />}
               />
             </Route>
