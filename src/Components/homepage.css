@@ -1,0 +1,113 @@
+.card-Home{
+  position: relative;
+  padding: 8px;
+  background-color: #ddd !important;
+  opacity: 0.6;
+  transition: 0.5s;
+  cursor: pointer;
+  margin: 10px;
+  width: 500px !important;
+  height: 270px;
+}
+.card-Home img{
+  width: 480px;
+  height: 260px;
+
+}
+
+.card-Home:hover{
+  opacity: 1;
+  background-color: #ed6277 !important;
+  bottom: 2px;
+}
+.card-Home .overlay{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.card-Details{
+  width: 350px;
+  min-height: 420px !important;
+  padding: 10px;
+  background-color: #eee !important;
+  transition: 0.5s;
+}
+.card-Details:hover{
+  bottom: 5px;
+  background-color: #ed6277 !important;
+
+}
+.card-Details img{
+  height: 200px;
+}
+.more-info{
+  border-bottom: 3px solid red !important;
+  transition: 0.5s !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  box-sizing: border-box !important;
+}
+.more-info:hover{
+  color: #fff !important;
+  background-color: aqua !important;
+  border-radius: 8px !important;
+}
+.to-right{
+  position: relative;
+  padding: 0 10px;
+}
+.more-info:hover > .to-right{
+  animation: to-right 1s infinite  ;
+}
+.card-city{
+  position: relative;
+  width: 350px;
+  min-height: 480px !important;
+  padding: 10px;
+  background-color: #c3d2ce !important;
+  bottom: 0px;
+  transition: 0.5s;
+}
+.card-city:hover{
+  animation: to-Up 0.5s forwards  ;
+  
+  background-color: #ed6277 !important;
+
+}
+.card-city .card-body{
+  background-color: #fff !important;
+  border-radius: 0 0 7px 7px;
+}
+.card-city img{
+  height: 220px;
+}
+
+@keyframes to-right {
+  0%{
+    left: 10px;
+  }
+  50%{
+    left: 0px;
+  }
+  100%{
+    left: 10px;
+  }
+}
+@keyframes to-Up {
+  0%{
+    bottom: 0px;
+    left: 0;
+  }
+  30%{
+    left: 5px;
+  }
+  60%{
+    left: -5px;
+  }
+  100%{
+    bottom: 10px;
+    left: 0px;
+  }
+
+}

@@ -1,0 +1,16 @@
+body {
+  margin: 0 !important;
+  font-family: 'Roboto', sans-serif !important;
+  background-color: #dfecef !important;
+}
+*{
+  box-sizing: border-box !important;
+}
+a{
+  text-decoration: none !important;
+}
+
+*:focus,*.active {
+  outline: none !important;
+  box-shadow:none !important;
+}
