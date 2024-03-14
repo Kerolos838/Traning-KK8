@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Traning-KK8/static/css/main.3fa0ee89.css",
-    "main.js": "/Traning-KK8/static/js/main.99a6c9e3.js",
+    "main.js": "/Traning-KK8/static/js/main.0cf2f6c6.js",
     "static/media/ST yusupov-palace.jpg": "/Traning-KK8/static/media/ST yusupov-palace.0469272380851ce66e45.jpg",
     "static/media/Batumi Botanical Garden.jpeg": "/Traning-KK8/static/media/Batumi Botanical Garden.d6846b66b99bdd6d3d23.jpeg",
     "static/media/Bagrati Cathedral.jpeg": "/Traning-KK8/static/media/Bagrati Cathedral.b6204d6db8c26bf25904.jpeg",
@@ -218,10 +218,10 @@
     "static/media/Palovit-Waterfall.webp": "/Traning-KK8/static/media/Palovit-Waterfall.02ab8481df052adc2ef9.webp",
     "index.html": "/Traning-KK8/index.html",
     "main.3fa0ee89.css.map": "/Traning-KK8/static/css/main.3fa0ee89.css.map",
-    "main.99a6c9e3.js.map": "/Traning-KK8/static/js/main.99a6c9e3.js.map"
+    "main.0cf2f6c6.js.map": "/Traning-KK8/static/js/main.0cf2f6c6.js.map"
   },
   "entrypoints": [
     "static/css/main.3fa0ee89.css",
-    "static/js/main.99a6c9e3.js"
+    "static/js/main.0cf2f6c6.js"
   ]
 }
